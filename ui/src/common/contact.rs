@@ -33,10 +33,10 @@ impl ContactType {
     pub fn into_lnk(&self) -> &'static str {
         match self {
             ContactType::Discord => "#",
-            ContactType::Twitter => "https://twitter.com/_mistricky",
+            ContactType::Twitter => "https://twitter.com/jmyounghoyos",
             ContactType::WeChat => "#",
-            ContactType::Email => "mailto:mist.zzh@gmail.com",
-            ContactType::GitHub => "https://github.com/mistricky",
+            ContactType::Email => "mailto:juanmanuel12.13.jmyh81@gmail.com.com",
+            ContactType::GitHub => "https://github.com/Youngermaster",
         }
     }
 }
