@@ -43,14 +43,14 @@ pub fn footer() -> Html {
                 <div>
                     <div class="contacts">
                         <div>
-                            <div class="text">{"Powered by Rust & Yew"}</div>
+                            <div class="text">{"Powered by Rust, Yew & zzhack-stack"}</div>
                             <div class="text">{"Illustration by Icons 8 from Ouch!"}</div>
                         </div>
                         <div>
                             <Contacts source={vec![ContactType::GitHub, ContactType::Twitter, ContactType::Discord, ContactType::Email, ContactType::WeChat]} />
                         </div>
                     </div>
-                    <div class="copyright text">{"Copyright © 2021 Mist"}</div>
+                    <div class="copyright text">{"Copyright © 2022 Youngermaster"}</div>
                 </div>
             </Container>
         </div>
