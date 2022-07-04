@@ -47,7 +47,7 @@ pub fn footer() -> Html {
                             <div class="text">{"Illustration by Icons 8 from Ouch!"}</div>
                         </div>
                         <div>
-                            <Contacts source={vec![ContactType::GitHub, ContactType::Twitter, ContactType::Discord, ContactType::Email, ContactType::WeChat]} />
+                            <Contacts source={vec![ContactType::GitHub, ContactType::Twitter, ContactType::Email]} />
                         </div>
                     </div>
                     <div class="copyright text">{"Copyright © 2022 Youngermaster"}</div>
