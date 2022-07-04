@@ -1,6 +1,6 @@
 ```metadata
 {
-    "cover": "../app/assets/sources/links_cover.svg",
+    "cover": "../app/assets/sources/blog_cover.svg",
     "tag": "help",
     "title": "GATOOOOO Gameeeer"
 }

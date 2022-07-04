@@ -7,7 +7,7 @@ pub struct PostFile {
     pub filename: &'static str,
 }
 
-pub static POSTS: [PostFile; 3] = [
+pub static POSTS: [PostFile; 4] = [
     PostFile {
         content: include_str!("../../posts/build_blog.md"),
         modified_time: 1654609915763,
@@ -22,5 +22,10 @@ pub static POSTS: [PostFile; 3] = [
         content: include_str!("../../posts/project_test.md"),
         modified_time: 1654855511389,
         filename: "project_test",
+    },
+    PostFile {
+        content: include_str!("../../posts/HackTheBox/late.md"),
+        modified_time: 1656959820000,
+        filename: "late",
     },
 ];
