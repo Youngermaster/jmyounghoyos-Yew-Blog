@@ -40,7 +40,7 @@ pub fn post_card_header(props: &PostCardHeaderProps) -> Html {
         <div class={style}>
             <div class="author">
                 <img src="/images/avatar.png" class="avatar" alt="avatar" />
-                <span class="author-name">{"Mist"}</span>
+                <span class="author-name">{"Youngermaster"}</span>
             </div>
             <Label text={props.label.clone()} />
         </div>

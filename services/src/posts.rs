@@ -4,19 +4,23 @@ use std::*;
 pub struct PostFile {
     pub content: &'static str,
     pub modified_time: u128,
-    pub filename: &'static str
+    pub filename: &'static str,
 }
 
-pub static POSTS: [PostFile; 2] = [
+pub static POSTS: [PostFile; 3] = [
     PostFile {
-    content: include_str!("../../posts/build_blog.md"),
-    modified_time: 1654609915763,
-    filename: "build_blog"
-},
-PostFile {
-    content: include_str!("../../posts/add_links.md"),
-    modified_time: 1654855511389,
-    filename: "add_links"
-},
-
+        content: include_str!("../../posts/build_blog.md"),
+        modified_time: 1654609915763,
+        filename: "build_blog",
+    },
+    PostFile {
+        content: include_str!("../../posts/add_links.md"),
+        modified_time: 1654855511389,
+        filename: "add_links",
+    },
+    PostFile {
+        content: include_str!("../../posts/project_test.md"),
+        modified_time: 1654855511389,
+        filename: "project_test",
+    },
 ];

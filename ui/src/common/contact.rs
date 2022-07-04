@@ -13,16 +13,12 @@ pub enum ContactType {
     Twitter,
     GitHub,
     Email,
-    WeChat,
-    Discord,
 }
 
 impl From<&ContactType> for &'static str {
     fn from(contact: &ContactType) -> &'static str {
         match contact {
-            ContactType::Discord => "discord.svg",
             ContactType::Twitter => "twitter.svg",
-            ContactType::WeChat => "wechat.svg",
             ContactType::Email => "gmail.svg",
             ContactType::GitHub => "github.svg",
         }
@@ -32,9 +28,7 @@ impl From<&ContactType> for &'static str {
 impl ContactType {
     pub fn into_lnk(&self) -> &'static str {
         match self {
-            ContactType::Discord => "#",
             ContactType::Twitter => "https://twitter.com/jmyounghoyos",
-            ContactType::WeChat => "#",
             ContactType::Email => "mailto:juanmanuel12.13.jmyh81@gmail.com.com",
             ContactType::GitHub => "https://github.com/Youngermaster",
         }
