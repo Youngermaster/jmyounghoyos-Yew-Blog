@@ -8,12 +8,6 @@ pub enum RootRoutes {
     Post { filename: String },
     #[at("/")]
     Root,
-    #[at("/projects")]
-    Projects,
-    #[at("/links")]
-    Links,
-    #[at("/about")]
-    About,
     // Compatible with https://github.com/jetli/awesome-yew
     #[at("/technology")]
     Technology,

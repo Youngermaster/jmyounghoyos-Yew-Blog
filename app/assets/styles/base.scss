@@ -1,12 +1,12 @@
 :root {
-  --mdc-theme-primary: #7ECCB4;
+  --mdc-theme-primary: #DF5770;
 
   mwc-icon-button::part("mdc-icon-button") {
     background: red;
   }
 
   .light {
-    --primary-color: #7ECCB4;
+    --primary-color: #DF5770;
     --base-color: #fff;
     --underlay-color: #F3F7FD;
     --text-color: #3F3D55;
@@ -26,17 +26,17 @@
   }
 
   .dark {
-    --code-bg: rgba(126, 204, 180, 0.35);
+    --code-bg: #D6D8DA;
     --code-color: var(--text-color);
     --blue: #4794FE;
     --alert-color: rgba(32, 136, 255, 0.2);
     --code-block-bg: #282c34;
-    --label-color: rgba(126, 204, 180, 0.36);
+    --label-color: #DF5770;
     --card-shadow-color: rgba(149, 157, 165, 0);
-    --primary-color: #7ECCB4;
+    --primary-color: #DF5770;
     --primary-shadow-color: rgb(127 214 194 / 22%);
-    --base-color: #31363F;
-    --underlay-color: #24292E;
+    --base-color: #1A1A1A;
+    --underlay-color: #0D0D0D;
     --text-color: #D6D8DA;
     --card-color: #31363F;
     --mask-color: rgba(0, 0, 0, 0.83);
@@ -88,7 +88,9 @@
 }
 
 @media (max-width: 600px) {
-  .container, .mini-container {
+
+  .container,
+  .mini-container {
     width: 100%;
     overflow: hidden;
     padding: 0 20px;
