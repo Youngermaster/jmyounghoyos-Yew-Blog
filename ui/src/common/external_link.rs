@@ -8,8 +8,6 @@ pub struct LinkProps {
     #[prop_or(String::from(""))]
     pub out_href: String,
     pub children: Children,
-    #[prop_or_default]
-    pub onclick: Callback<MouseEvent>,
 }
 
 #[function_component(ExternalLink)]
@@ -25,10 +23,9 @@ pub fn link(props: &LinkProps) -> Html {
         }
     "
     );
-    let onclick_callback = props.onclick.clone();
 
     html! {
-        <a class={style} onclick={onclick_callback}>
+        <a class={style} href={props.href.clone()}>
             {props.children.clone()}
         </a>
     }

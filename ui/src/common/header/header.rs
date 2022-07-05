@@ -3,7 +3,7 @@ use crate::container::Container;
 use crate::external_link::ExternalLink;
 use crate::header::drawer::Drawer;
 use crate::header::drawer_item::DrawerItem;
-use crate::image::{Icon, ThemeImage};
+use crate::image::Icon;
 use crate::link::Link;
 use router::RootRoutes;
 use utils::theme::only_render_on_mobile;
@@ -76,11 +76,11 @@ pub fn header() -> Html {
                     <div class="wrapper">
                         <div class="left">
                             <Link href={RootRoutes::Home}>
-                                <ThemeImage source="zzhack_logo.svg" />
+                                <a>{"Juan Manuel Young Hoyos's Blog"}</a>
                             </Link>
                             <div class="tabs">
                                 <Link href={RootRoutes::Home}>{"Posts"}</Link>
-                                <ExternalLink href={"https://jmyounghoyos.com/"}>{"About me"}</ExternalLink>
+                                <ExternalLink href={"https://jmyounghoyos.com/".to_string()}>{"About me"}</ExternalLink>
                             </div>
                         </div>
                         <div class="right">

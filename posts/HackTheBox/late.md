@@ -2,7 +2,9 @@
 {
     "cover": "../../app/assets/sources/late_banner.jpeg",
     "tag": "HTB",
-    "title": "Late - Hack The Box"
+    "title": "Late - Hack The Box",
+    "pined": true,
+    "size": "large"
 }
 ```
 
