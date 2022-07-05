@@ -8,8 +8,6 @@
 }
 ```
 
-# Late
-
 ## Reconnaissance
 
 First we *[enum](https://en.wikipedia.org/wiki/Network_enumeration)* the machine, in this case I’ll be using `[rustscan](https://github.com/RustScan/RustScan)`:
