@@ -1,7 +1,7 @@
 [package]
-name = "zzhack"
+name = "jmyounghoyos_blog"
 version = "0.1.0"
-authors = ["mistricky <mist@zzhack.fun>"]
+authors = ["Youngermaster <juanmanuel12.13.jmyh81@gmail.com>", "mistricky <mist@zzhack.fun>"]
 edition = "2018"
 
 [dependencies]
@@ -32,10 +32,8 @@ utils = {path = "../utils"}
 ui = {path = "../ui"}
 post = {path = "../pages/post"}
 home = {path = "../pages/home"}
-about = {path = "../pages/about"}
 not_found = {path = "../pages/not_found"}
 projects = {path = "../pages/projects"}
-links = {path = "../pages/links"}
 router = {path = "../router"}
 
 [profile.release]

@@ -10,7 +10,6 @@ members = [
     "pages/projects",
     "pages/not_found",
     "pages/home",
-    "pages/links",
     "pages/post",
     "router",
 ]

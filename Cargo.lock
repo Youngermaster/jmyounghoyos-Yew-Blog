@@ -3,17 +3,6 @@
 version = 3
 
 [[package]]
-name = "about"
-version = "0.1.0"
-dependencies = [
- "services",
- "stylist",
- "ui",
- "utils",
- "yew",
-]
-
-[[package]]
 name = "adler"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -458,6 +447,42 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35"
 
 [[package]]
+name = "jmyounghoyos_blog"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "base64",
+ "chrono",
+ "css-in-rust",
+ "global",
+ "home",
+ "js-sys",
+ "lazy_static",
+ "log",
+ "material-yew",
+ "not_found",
+ "once_cell",
+ "post",
+ "projects",
+ "pulldown-cmark",
+ "regex",
+ "router",
+ "serde",
+ "serde_json",
+ "services",
+ "stdweb",
+ "stylist",
+ "ui",
+ "utils",
+ "wasm-bindgen",
+ "wasm-logger",
+ "web-sys",
+ "wee_alloc",
+ "yew",
+ "yew-router",
+]
+
+[[package]]
 name = "js-sys"
 version = "0.3.57"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -511,18 +536,6 @@ name = "linked-hash-map"
 version = "0.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7fb9b38af92608140b86b693604b9ffcc5824240a484d1ecd4795bacb2fe88f3"
-
-[[package]]
-name = "links"
-version = "0.1.0"
-dependencies = [
- "router",
- "services",
- "stylist",
- "ui",
- "utils",
- "yew",
-]
 
 [[package]]
 name = "litrs"
@@ -1463,42 +1476,4 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "zzhack"
-version = "0.1.0"
-dependencies = [
- "about",
- "anyhow",
- "base64",
- "chrono",
- "css-in-rust",
- "global",
- "home",
- "js-sys",
- "lazy_static",
- "links",
- "log",
- "material-yew",
- "not_found",
- "once_cell",
- "post",
- "projects",
- "pulldown-cmark",
- "regex",
- "router",
- "serde",
- "serde_json",
- "services",
- "stdweb",
- "stylist",
- "ui",
- "utils",
- "wasm-bindgen",
- "wasm-logger",
- "web-sys",
- "wee_alloc",
- "yew",
- "yew-router",
 ]

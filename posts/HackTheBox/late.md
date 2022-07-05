@@ -1,8 +1,10 @@
 ```metadata
 {
-    "cover": "../../app/assets/sources/late_banner.jpeg",
+    "cover": "../../app/assets/sources/Banner-HTB-Late.png",
     "tag": "HTB",
-    "title": "Late - Hack The Box"
+    "title": "Late - Hack The Box",
+    "pined": true,
+    "size": "large"
 }
 ```
 

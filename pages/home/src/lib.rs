@@ -1,5 +1,4 @@
 use services::post_service::post_service::{FilterTag, POST_SERVICE};
-use ui::image::ThemeImage;
 use ui::label::Label;
 use ui::link::Link;
 use ui::post_card::post_card::PostCard;
@@ -69,9 +68,6 @@ pub fn home() -> Html {
 
     html! {
         <div class={style}>
-            <div class="banner">
-                <ThemeImage source="banner.svg" is_reactive=true />
-            </div>
             <div class="labels">
                 <Link onclick={handle_filter_posts_by_label(FilterTag::All)}>
                     <Label text="All" />
