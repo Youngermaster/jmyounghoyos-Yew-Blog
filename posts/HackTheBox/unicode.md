@@ -1,6 +1,6 @@
 ```metadata
 {
-    "cover": "../../app/assets/sources/late_banner.jpeg",
+    "cover": "../../app/assets/sources/Banner-HTB-Unicode.png",
     "tag": "HTB",
     "title": "Unicode - Hack The Box"
 }
