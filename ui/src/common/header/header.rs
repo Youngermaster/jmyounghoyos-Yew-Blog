@@ -37,6 +37,7 @@ pub fn header() -> Html {
         .tabs a {
             font-size: 14px;
             margin: 0 15px;
+            font-weight: 900;
         }
 
         .setting-icon {
@@ -49,6 +50,12 @@ pub fn header() -> Html {
             background: var(--base-color);
             position: relative;
             z-index: 6;
+        }
+
+        .header-name {
+            font-size: 2 rem;
+            color: white;
+            font-weight: 900;
         }
 
         @media (max-width: 600px) {
@@ -76,7 +83,7 @@ pub fn header() -> Html {
                     <div class="wrapper">
                         <div class="left">
                             <Link href={RootRoutes::Home}>
-                                <a>{"Juan Manuel Young Hoyos's Blog"}</a>
+                                <a class="header-name">{"Juan Manuel Young Hoyos's Blog"}</a>
                             </Link>
                             <div class="tabs">
                                 <Link href={RootRoutes::Home}>{"Posts"}</Link>

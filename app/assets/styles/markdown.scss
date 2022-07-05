@@ -117,11 +117,11 @@ blockquote {
 }
 
 .markdown-code {
-    background: var(--code-bg);
+    background: var(--card-color);
     padding: 3px 7px;
     border-radius: 5px;
     font-size: 14px;
-    color: var(--code-color) !important;
+    color: var(--text-color) !important;
 }
 
 .markdown-code-block {

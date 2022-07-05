@@ -26,7 +26,8 @@ pub fn label(props: &LabelProps) -> Html {
 
         .label-text {
             font-size: 12.48px;
-            color: var(--text-color);
+            color: white;
+            font-weight: 900;
         }
     "
     );
