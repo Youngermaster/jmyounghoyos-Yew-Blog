@@ -53,7 +53,7 @@ pub fn header() -> Html {
         }
 
         .header-name {
-            font-size: 2 rem;
+            font-size: 3 rem;
             color: white;
             font-weight: 900;
         }
